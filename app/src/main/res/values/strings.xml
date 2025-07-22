@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GroupMeal</string>
+    <string name="invites">invites</string>
+    <string name="friends">Friends</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="logout">Logout</string>
+    <string-array name="sort_fields">
+        <item>Rating</item>
+        <item>Price</item>
+    </string-array>
+
+    <string-array name="sort_orders">
+        <item>Low to High</item>
+        <item>High to Low</item>
+    </string-array>
+    <string name="who_s_going">Who\'s Going?</string>
+    <string name="invitation_details">Invitation Details</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="name">Name</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="my_friends">My Friends</string>
+    <string name="find_friends">Find Friends</string>
+</resources>

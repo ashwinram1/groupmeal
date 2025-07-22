@@ -1,0 +1,83 @@
+github.com/AlDanial/cloc v 2.04  T=0.02 s (2848.3 files/s, 143433.5 lines/s)
+--------------------------------------------------------------------------------------------------------------------------
+File                                                                                   blank        comment           code
+--------------------------------------------------------------------------------------------------------------------------
+app/src/main/res/drawable/ic_launcher_background.xml                                       0              0            170
+app/src/main/java/edu/utap/groupmeal/view/BrowsePlacesFragment.kt                         19              0            139
+app/src/main/java/edu/utap/groupmeal/UserDBHelper.kt                                      15              0            134
+app/src/main/java/edu/utap/groupmeal/view/GooglePlacesViewModel.kt                        24              2            125
+app/src/main/java/edu/utap/groupmeal/MainViewModel.kt                                     23              4            122
+app/src/main/res/layout/row_place.xml                                                     14              4            117
+app/src/main/java/edu/utap/groupmeal/view/CreateInviteFragment.kt                         12              1            107
+app/src/main/res/layout/fragment_one_place.xml                                            13              4            103
+app/src/main/res/layout/fragment_places.xml                                               11              5            103
+app/src/main/java/edu/utap/groupmeal/view/FriendsFragment.kt                              14              2            102
+app/src/main/java/edu/utap/groupmeal/AuthUser.kt                                          15             15            100
+app/src/main/java/edu/utap/groupmeal/view/OneInviteFragment.kt                            11              0             89
+app/src/main/java/edu/utap/groupmeal/view/adapter/PlaceRowAdapter.kt                      13              0             85
+app/src/main/res/layout/fragment_one_invite.xml                                            6              4             79
+app/src/main/res/navigation/nav_graph.xml                                                  8              0             79
+app/src/main/java/edu/utap/groupmeal/view/OnePlaceFragment.kt                             11              0             75
+app/src/main/res/layout/fragment_create_invite.xml                                        11              0             70
+app/src/main/java/edu/utap/groupmeal/MainActivity.kt                                       9              5             67
+app/src/main/res/layout/row_invites.xml                                                    0              0             55
+app/src/main/java/edu/utap/groupmeal/api/GooglePlacesRepository.kt                         5              0             52
+app/src/main/res/layout/action_bar.xml                                                     3              0             52
+app/src/main/res/layout/fragment_friends.xml                                               5              0             52
+app/src/main/java/edu/utap/groupmeal/view/HomeFragment.kt                                  4              1             43
+app/src/main/java/edu/utap/groupmeal/view/InvitesFragment.kt                               6              0             42
+app/src/main/java/edu/utap/groupmeal/view/adapter/InviteRowAdapter.kt                      7              0             42
+app/src/main/java/edu/utap/groupmeal/api/GooglePlacesApi.kt                                7              0             41
+app/src/main/AndroidManifest.xml                                                           4              0             40
+app/src/main/java/edu/utap/groupmeal/view/adapter/AttendeeRowAdapter.kt                    8              0             39
+app/src/main/java/edu/utap/groupmeal/view/PlacesFavorites.kt                               6              0             36
+app/src/main/res/layout/row_user_search.xml                                                4              0             36
+app/src/main/java/edu/utap/groupmeal/view/adapter/UserAdapter.kt                           8              0             35
+app/src/main/java/edu/utap/groupmeal/api/GooglePlace.kt                                    3              0             32
+app/src/main/res/layout/fragment_home.xml                                                  0              4             32
+app/src/main/java/edu/utap/groupmeal/view/adapter/SearchUserAdapter.kt                     7              0             30
+app/src/main/res/drawable-v24/ic_launcher_foreground.xml                                   0              0             30
+app/src/main/res/layout/row_user.xml                                                       0              0             30
+app/src/main/res/layout/activity_main.xml                                                  0              0             27
+app/src/main/res/layout/row_attendee.xml                                                   3              0             24
+app/src/main/res/values/strings.xml                                                        1              0             24
+app/src/main/java/edu/utap/groupmeal/model/Invite.kt                                       3              0             22
+app/src/main/res/layout/content_main.xml                                                   2              0             22
+app/src/main/res/values/themes.xml                                                         0              8             21
+app/src/main/res/layout/fragment_invites.xml                                               2              0             20
+app/src/main/java/edu/utap/groupmeal/FirestoreExtensions.kt                                2              0             18
+app/src/main/res/drawable-anydpi/ic_add.xml                                                0              0             16
+app/src/main/res/drawable-anydpi/ic_invite_icon.xml                                        0              0             16
+app/src/main/res/drawable/baseline_logout_24.xml                                           0              0             11
+app/src/main/res/menu/menu_main.xml                                                        0              0             11
+app/src/main/res/values/colors.xml                                                         0              0             11
+app/src/main/res/menu/menu_friend_search.xml                                               0              0             10
+app/src/main/java/edu/utap/groupmeal/model/User.kt                                         2              0              9
+app/src/main/res/drawable/ic_clear_black_24dp.xml                                          0              0              9
+app/src/main/res/drawable/ic_cloud_download_black_24dp.xml                                 0              0              9
+app/src/main/res/drawable/ic_favorite_black_24dp.xml                                       0              0              9
+app/src/main/res/drawable/ic_favorite_border_black_24dp.xml                                0              0              9
+app/src/main/res/drawable/ic_home_black_24dp.xml                                           0              0              9
+app/src/main/res/drawable/ic_money_black_24dp.xml                                          0              0              9
+app/src/main/res/drawable/ic_search_black_24dp.xml                                         0              0              9
+app/src/main/res/drawable/ic_star_black_24dp.xml                                           0              0              9
+app/src/main/res/layout/fragment_list_connections.xml                                      2              0              9
+app/src/main/java/edu/utap/groupmeal/api/PlacePhoto.kt                                     2              0              7
+app/src/main/java/edu/utap/groupmeal/api/OpeningHours.kt                                   2              0              6
+app/src/main/java/edu/utap/groupmeal/model/Attendee.kt                                     1              0              5
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml                                   0              0              5
+app/src/main/res/xml/data_extraction_rules.xml                                             0             14              5
+app/src/main/res/xml/file_paths.xml                                                        0              0              4
+app/src/main/res/xml/backup_rules.xml                                                      0             10              3
+--------------------------------------------------------------------------------------------------------------------------
+SUM:                                                                                     328             83           2963
+--------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Kotlin                          27            239             30           1604
+XML                             40             89             53           1359
+-------------------------------------------------------------------------------
+SUM:                            67            328             83           2963
+-------------------------------------------------------------------------------

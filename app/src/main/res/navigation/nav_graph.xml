@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="edu.utap.groupmeal.view.HomeFragment"
+        android:label="GroupMeal">
+        <action
+            android:id="@+id/action_homeFragment_to_invites"
+            app:destination="@id/invitesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_browsePlacesFragment"
+            app:destination="@id/browsePlacesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_friends"
+            app:destination="@id/friendsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="edu.utap.groupmeal.view.FriendsFragment"
+        android:label="Friends" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/browsePlacesFragment"
+        android:name="edu.utap.groupmeal.view.BrowsePlacesFragment"
+        android:label="Browse Restaurants" >
+        <action
+            android:id="@+id/action_browsePlacesFragment_to_placesFavorites"
+            app:destination="@id/placesFavorites" />
+        <action
+            android:id="@+id/action_browsePlacesFragment_to_onePlaceFragment"
+            app:destination="@id/onePlaceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/placesFavorites"
+        android:name="edu.utap.groupmeal.view.PlacesFavorites"
+        android:label="Favorites" >
+        <action
+            android:id="@+id/action_placesFavorites_to_onePlaceFragment"
+            app:destination="@+id/onePlaceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onePlaceFragment"
+        android:name="edu.utap.groupmeal.view.OnePlaceFragment"
+        android:label="Restaurant" >
+        <argument
+            android:name="place"
+            app:argType="edu.utap.groupmeal.api.GooglePlace" />
+        <action
+            android:id="@+id/action_onePlaceFragment_to_createInviteFragment"
+            app:destination="@id/createInviteFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/createInviteFragment"
+        android:name="edu.utap.groupmeal.view.CreateInviteFragment"
+        android:label="Create Invite">
+        <argument
+            android:name="placeArg"
+            app:argType="edu.utap.groupmeal.api.GooglePlace"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/invitesFragment"
+        android:name="edu.utap.groupmeal.view.InvitesFragment"
+        android:label="Invites">
+        <action
+            android:id="@+id/action_invites_to_oneInvite"
+            app:destination="@+id/oneInviteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/oneInviteFragment"
+        android:name="edu.utap.groupmeal.view.OneInviteFragment"
+        android:label="Invite Details">
+        <argument
+            android:name="inviteArg"
+            app:argType="edu.utap.groupmeal.model.Invite" />
+    </fragment>
+
+</navigation>

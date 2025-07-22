@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "984892330656",
+    "project_id": "fc8-project-f5823",
+    "storage_bucket": "fc8-project-f5823.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984892330656:android:796cc8b25b65ad464a6fc5",
+        "android_client_info": {
+          "package_name": "edu.utap.groupmeal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nxVD7thlWrc_On1mM0rMhY14tby_a-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984892330656:android:e52acb478ef23b5f4a6fc5",
+        "android_client_info": {
+          "package_name": "edu.utap.groupmeal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nxVD7thlWrc_On1mM0rMhY14tby_a-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
